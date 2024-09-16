@@ -29,7 +29,7 @@
 
         /* Cabeçalho */
         header {
-            font-family: 'Lucida Bright';
+            font-family: 'Trebuchet MS';
             background-color: #E0BFB8;
             color: black;
             padding: 1rem 0;
@@ -50,6 +50,28 @@
             color: #770737 ;
         }
 
+        header nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;        
+        }
+
+        header nav ul li {
+            margin: 0 1.5rem;
+        }
+
+        header nav ul li a {
+            color: #F33A6A;
+            text-decoration: none;
+            font-weight: 700;
+            transition: color 0.3s;
+        }
+
+        header nav ul li a:hover {
+            color: black;  
+        }
+
     </style>
 </head>
 <body>
@@ -62,10 +84,10 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#sobre"></a>Sobre</li>
-                <li><a href="#skills"></a>Habilidades</li>
-                <li><a href="#portifólio"></a>Portifólio</li>
-                <li><a href="#contato"></a>Contato</li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#portifólio">Portifólio</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </div>
