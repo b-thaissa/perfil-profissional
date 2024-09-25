@@ -246,13 +246,49 @@
             color: #000000;
         }
 
-        form input, form textarea {
+        form input,
+        form textarea {
             padding: 0.8rem;
             border: 1px solid #000000;
             border-radius: 5px;
             font-size: 0.3rem;
             width: 100%;
             box-sizing: border-box;
+        }
+
+        form textarea {
+            resize: vertical;
+            height: 100px;
+        }
+
+        form button {
+            background-color: #fadbd8;
+            color: #150202;
+            padding: 0.8rem;
+            font-size: 1rem;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        form button:hover {
+            background-color: #e0584d;
+        }
+
+        /* RODAPÉ */
+        footer {
+            background-color: #282828;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: #ddd;
         }
 
 
